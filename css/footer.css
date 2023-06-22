@@ -1,0 +1,53 @@
+/* Footer */
+.footer {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 450px;
+ background-color: whitesmoke;
+}
+
+.footer .content {
+ display: flex;
+ gap: 200px;
+ background-color: whitesmoke;
+ margin-bottom: 50px;
+}
+
+.footer .content h4 {
+ color: #5a5656;
+ margin-bottom: 10px;
+ font-size: 25px;
+}
+
+.footer .content .footnav a{
+ color: #5a5656;
+ margin-right: 5px;
+}
+
+.footer .follow i {
+ margin-right: 10px;
+ font-size: 22px;
+ color: #2466e0;
+}
+.footer .follow p{
+ margin-bottom: 10px;
+}
+
+.footer .questions i {
+ margin-right: 10px;
+ color: #2466e0;
+}
+
+.footer .line {
+ width: 1000px;
+ height: 1px;
+ background-color: #5a5656;
+ margin-bottom: 10px;
+}
+
+.footer .fa {
+ color: #2466e0;
+ margin-right: 5px;
+}
