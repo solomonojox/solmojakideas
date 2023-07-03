@@ -1,17 +1,19 @@
-.floating-sm{
- position: fixed;
- display: flex;
- flex-direction: column;
- gap: 20px;
- align-items: center;
- justify-content: center;
- top: 45vh;
- right: 40px;
+.floating-sm {
+     position: fixed;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     align-items: center;
+     justify-content: center;
+     top: 45vh;
+     right: 40px;
+     z-index: 1;
 }
-.floating-sm i{
- font-size: 25px;
- color: #2466e0;
- background-color: whitesmoke;
- padding: 8px;
- border-radius: 100%;
+
+.floating-sm i {
+     font-size: 25px;
+     color: #2466e0;
+     background-color: whitesmoke;
+     padding: 8px;
+     border-radius: 100%;
 }

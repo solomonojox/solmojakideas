@@ -5,13 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile</title>
+  <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- CSS links -->
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/typing-anime.css">
   <link rel="stylesheet" href="css/floating-sm.css">
+  <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/bootstrap-footer.css">
 
   <link rel="preconnect" href="https://f00onts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +36,7 @@
       <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
       <a href="index.html"><h1>SOLMOJAK IDEAS</h1></a>
     </div>
-    <ul>
+    <ul class="nav-links">
       <a href="index.html"><li>Home</li></a>
       <a href="#aboutme"><li>About</li></a>
       <a href="#services"><li>Services</li></a>
@@ -38,6 +45,7 @@
     </ul>
     <a href="#" class="contact">Contact me</a>
   </nav>
+  <img src="images/icons/menu.png" alt="" class="menu-btn">
 
   <!-- social media -->
   <div class="floating-sm">
@@ -75,8 +83,6 @@
   </header>
 
   <!-- introduction -->
-  <div class="pic-bar1" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out"></div>
-  <div class="pic-bar2" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out"></div>
   <section class="intro-me" id="aboutme">
     <img src="images/intro-img.jpg" alt="" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
     <div class="about-content">
@@ -100,33 +106,79 @@
     <h5 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">SERVICES</h5>
     <h1 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, quasi.</h1>
     <div class="services">
-      <!-- 1 -->
+      <!-- 1 
       <div class="serve" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
         <img src="images/icons/ux-design.svg" alt="">
         <h2>UI & UX Design</h2>
         <p>Our UI/UX service enhances website usability and user satisfaction through seamless user experiences.</p>
         <a href="">Read more <i class="fa fa-long-arrow-right"></i></a>
       </div>
-      <!-- 2 -->
+      <!-- 2 
       <div class="serve" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
         <img src="images/icons/adobe-photoshop.svg" alt="">
         <h2>Graphic Design</h2>
-        <p>Get an outstanding graphic representation of your brand for great visibility.</p>
+        <p>Get an outstanding graphic representation of your brand for great visibility. thfyhi jipji hgggyuhyi guhu9uh</p>
         <a href="">Read more <i class="fa fa-long-arrow-right"></i></a>
       </div>
-      <!-- 3 -->
+      <!-- 3 -
       <div class="serve" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
         <img src="images/icons/web-coding.svg" alt="">
         <h2>Web Development</h2>
         <p>We create visually stunning, user-friendly websites tailored to meet your business needs.</p>
         <a href="">Read more <i class="fa fa-long-arrow-right"></i></a>
       </div>
+    </div> 
+    <div class="comment" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <h3>Have any works you want to done by me? <a href="#">Contact Me</a></h3>
+      <p>I am just a phone call away, ready to assist you with all the tasks you need to be completed.</p>
+    </div> -->
+  </section>
+
+  <!-- bootstrap service -->
+  <div class="container-fluid">
+    <div class="row" style="justify-content: center;" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <div class="col-xs-12 col-s2 col-md-4 col-lg-3 mb-4">
+        <div class="card p-2">
+          <img src="images/icons/ux-design.svg" class="card-img-top" alt="..." style="width: 80px;">
+          <div class="card-body">
+            <h5 class="card-title">UI & UX Design</h5>
+            <p class="card-text">Our UI/UX service enhances website usability and user satisfaction through seamless user experiences.
+            </p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-s2 col-md-4 col-lg-3 mb-4">
+        <div class="card p-2">
+          <img src="images/icons/adobe-photoshop.svg" class="card-img-top" alt="..." style="width: 80px;">
+          <div class="card-body">
+            <h5 class="card-title">UI & UX Design</h5>
+            <p class="card-text">Our UI/UX service enhances website usability and user satisfaction through seamless user experiences.
+            </p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-s2 col-md-4 col-lg-3 mb-4">
+        <div class="card p-2">
+          <img src="images/icons/web-coding.svg" class="card-img-top" alt="..." style="width: 80px;">
+          <div class="card-body">
+            <h5 class="card-title">UI & UX Design</h5>
+            <p class="card-text">Our UI/UX service enhances website usability and user satisfaction through seamless user experiences.
+            </p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="comment" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
       <h3>Have any works you want to done by me? <a href="#">Contact Me</a></h3>
       <p>I am just a phone call away, ready to assist you with all the tasks you need to be completed.</p>
     </div>
-  </section>
+  </div>
 
   <!-- counter -->
   <section class="counter">
@@ -184,6 +236,13 @@
       <img src="images/portfolio/Rise.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
       <img src="images/portfolio/Unreheased.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
       <img src="images/portfolio/walk.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+
+      <img src="images/portfolio/CLB1.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/ANDREW_Cover are.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/f&v2.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/flyer_Paul.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Kulit flyer.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/makanaki.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
     </div>
   </section>
 
@@ -192,14 +251,14 @@
 
   </section>
 
-  <!-- pricing -->
+  <!-- pricing 
   <section class="pricing" id="pricing">
     <div class="pricing-title" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
       <h4>MY PRICING</h4>
       <h1>Pricing & Packages</h1>
     </div>
-    <!-- 1 -->
-    <div class="price-wrap" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+    <!-- 1 
+    <div class="price-wrap" >
       <div class="price">
         <h4>BASIC PLAN</h4>
         <div class="amount">
@@ -212,7 +271,7 @@
           <p>GET STARTED</p>
         </button>
       </div>
-      <!-- 2 -->
+      <!-- 2 -
       <div class="price">
         <h4>BASIC PLAN</h4>
         <div class="amount">
@@ -225,7 +284,7 @@
           <p>GET STARTED</p>
         </button>
       </div>
-      <!-- 3 -->
+      <!-- 3 --
       <div class="price">
         <h4>BASIC PLAN</h4>
         <div class="amount">
@@ -239,23 +298,25 @@
         </button>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="content">
-      <div class="follow">
+  <!-- Bootstrap footer -->
+  <div class="container-fluid">
+    <div class="row" style="justify-content: center;">
+      <div class="col-md-4 follow">
         <div>
           <h4>Follow Me</h4>
         </div>
         <div>
-          <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Alias quod <br> laborum, atque aliquam commodi sunt.</p>
+          <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Alias quod <br> laborum, atque aliquam commodi sunt.
+          </p>
           <a href="https://facebook.com/solomonakpas"><i class="fab fa-facebook"></i></a>
           <a href="https://instagram.com/solmojakideas"><i class="fab fa-instagram"></i></a>
           <a href="https://twitter.com/solomonakpas"><i class="fab fa-twitter"></i></a>
         </div>
       </div>
-      <div class="footnav">
+
+      <div class="col-md-4 footnav">
         <h4>Navigation</h4>
         <ul>
           <a href=""><li><i class="fa fa-long-arrow-right"></i>Home</li></a>
@@ -266,7 +327,7 @@
           <a href=""><li><i class="fa fa-long-arrow-right"></i>Contact</li></a>
         </ul>
       </div>
-      <div class="questions">
+      <div class="col-md-4 questions">
         <h4>Have Questions?</h4>
         <p class="sm-i"><i class="fa fa-location-arrow"></i>Contact</p><br>
         <p class="sm-i"><i class="fa fa-phone"></i>Call</p><br>
@@ -278,13 +339,27 @@
       <p>Copyright ©2023 All rights reserved | Designed by <a href="https://solomonakpas.com"
           style="color: #9b9898; font-weight: bold;">Solmojak Ideas</a></p>
     </div>
-  </footer>
+  </div>
 
   <!-- animation -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+
+  <!-- mobile menu -->
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click', () => {
+    navlinks.classList.toggle('mobile-menu')
+    })
+    </script>
+
+  <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
