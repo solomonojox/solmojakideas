@@ -94,6 +94,9 @@
     display: flex;
     flex-direction: column;
   }
+    .portfolio-flyer .flyer-images img{
+      width: 360px;
+    }
   /* pricing */
   .pricing{
     height: 1500px;
