@@ -192,8 +192,7 @@ h2 {
 /* counter */
 .counter {
      display: flex;
-     background-image: url(/images/write-bg.jpg);
-     background-size: cover;
+     background-color: #0f3b8f;
      width: 100%;
      align-items: center;
      justify-content: center;

@@ -81,8 +81,7 @@
   /* counter */
 .counter {
   display: flex;
-  background-image: url(/images/write-bg.jpg);
-  background-size: cover;
+  background-color: #2466e0;
   width: 100%;
   align-items: center;
   justify-content: center;
