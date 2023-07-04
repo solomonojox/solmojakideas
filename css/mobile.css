@@ -1,6 +1,6 @@
 .menu-btn {
-  position: absolute;
-  top: 100px;
+  position: fixed;
+  top: 13px;
   right: 30px;
   width: 40px;
   cursor: pointer;
@@ -10,10 +10,11 @@
 @media only screen and (max-width:880px) {
   .menu-btn {
     display: block;
+    z-index: 99999999999;
   }
 
   .navbar {
-    padding: 0;
+
   }
 
   .nav-links {
@@ -32,6 +33,10 @@
 
   .logo-area h1 {
     display: none;
+  }
+  .logo-area .logo {
+    display: flex;
+    left: 0px;
   }
 
   /* header */
@@ -71,6 +76,9 @@
   .intro-me img{
     width: 350px;
   }
+    .intro-me .about-content .content-head li{
+      font-size: 12px;
+    }
 
   /* Floating SM */
     .floating-sm{
