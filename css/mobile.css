@@ -39,6 +39,18 @@
     flex-direction: column;
   }
 
+  /* header */
+    .header .container{
+      margin: 0;
+    }
+
+  /* Floating SM */
+    .floating-sm{
+      top: 45vh;
+      right: 5px;
+    }
+
+
   /* intro-me */
   .intro-me{
     display: flex;
