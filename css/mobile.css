@@ -79,13 +79,13 @@
   }
 
   /* counter */
-.counter {
-  display: flex;
-  background-color: #2466e0;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
+  .counter {
+    display: flex;
+    background-color: #2466e0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
   .counter {
     gap: 3px;
   }
