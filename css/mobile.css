@@ -34,6 +34,14 @@
     display: none;
   }
 
+  /* header */
+  .header .container {
+    margin: 100px 0 0;
+  }
+  .header .container .social h5{
+    font-size: 14px;
+  }
+
   /* intro me */
   .intro-me {
     display: flex;
@@ -42,11 +50,6 @@
   .intro-me img{
     width: 350px;
   }
-
-  /* header */
-    .header .container{
-      margin: 0;
-    }
 
   /* Floating SM */
     .floating-sm{
@@ -76,8 +79,16 @@
   }
 
   /* counter */
+.counter {
+  display: flex;
+  background-image: url(/images/write-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
   .counter {
-    gap: 10px;
+    gap: 3px;
   }
   .counter .count {
     display: flex;
@@ -89,13 +100,13 @@
   }
 
   .counter .count .detail h1 {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
   }
 
   .counter .count .detail h4 {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* portfolio */
