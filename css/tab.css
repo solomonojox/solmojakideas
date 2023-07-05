@@ -1,0 +1,67 @@
+.container {
+     width: 350px;
+     background-color: white;
+     padding: 15px;
+     border-radius: 20px;
+}
+
+.tab_box {
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     border-bottom: 2px solid rgba(229, 229, 229);
+     position: relative;
+}
+
+.tab_box .tab_btn {
+     font-size: 12px;
+     font-weight: 600;
+     color: #919191;
+     background: none;
+     border: none;
+     padding: 18px 10px;
+     cursor: pointer;
+}
+
+.tab_box .tab_btn.active {
+     color: #2466e0;
+}
+
+.content_box {
+     padding: 20px;
+}
+
+.content_box .content {
+     display: none;
+     animation: moving .5s ease;
+}
+
+@keyframes moving {
+     from {
+          transform: translateX(50px);
+          opacity: 0;
+     }
+
+     to {
+          transform: translateX(0px);
+          opacity: 1;
+     }
+}
+
+.content_box .content.active {
+     display: block;
+}
+
+
+
+.line {
+     position: absolute;
+     top: 52px;
+     left: 22px;
+     width: 90px;
+     height: 5px;
+     background-color: #2466e0;
+     border-radius: 10px;
+     transition: all 0.3s ease-in-out;
+}

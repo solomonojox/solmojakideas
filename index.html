@@ -23,11 +23,14 @@
   <link rel="preconnect" href="https://f00onts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Montserrat:wght@100;200;100;400;1000&family=Roboto:wght@100;100;400;1000;700;900&display=swap"
     rel="stylesheet">
 
     <!-- animation -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <!-- tab -->
+    <link rel="stylesheet" href="css/tab.css">
 </head>
 
 <body>
@@ -56,7 +59,7 @@
   </div>
 
   <header class="header" id="home">
-    <div class="container" data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out">
+    <div class="container-top" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <img src="images/header.png" alt="">
       <h1>I am Solomon Akpas,</h1>
       <h1 class="type">I love to Develop.</h1>
@@ -86,33 +89,53 @@
 
   <!-- introduction -->
   <section class="intro-me" id="aboutme">
-      <img src="images/intro-img.jpg" alt="" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/intro-img.jpg" alt="" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <div class="about-content">
-        <div class="content-head" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
-          <ul>
-            <a href="#"><li>ABOUT ME</li></a>
-            <a href="#"><li>EXPERIENCE</li></a>
-            <a href="#"><li>SKILLS</li></a>
-          </ul>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
+          <div class="tab_box">
+            <button class="tab_btn active">ABOUT ME</button>
+            <button class="tab_btn">EXPERIENCE</button>
+            <button class="tab_btn">SKILLS</button>
+            <div class="line"></div>
+          </div>
+          <div class="content_box">
+            <div class="content active">
+              <p>
+                In the realm of design, I stand out as a captivating storyteller, weaving visual narratives that evoke emotion and inspire. With an artist's eye for detail and a passion for aesthetics, I effortlessly transform ideas into striking visual masterpieces. My dedication to creating impactful designs has made me a true luminary in the world of graphic design and web development.
+              </p>
+            </div>
+            <!-- experience -->
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis tenetur quidem magni animi quisquam
+                dolor sint nam. Vel, cupiditate. Quasi ab corrupti nostrum esse.
+              </p>
+            </div>
+            <!-- skill -->
+            <div class="content">
+              <p>
+                - Graphic design <br>
+                - Product design(Ui/Ux) <br>
+                - Web development ( html, CSS, JavaScript) <br>
+              </p>
+            </div>
+
+          </div>
         </div>
-        <h1 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">My Story</h1>
-        <p data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">In the realm of design, I stand out as a captivating storyteller, weaving visual narratives that evoke emotion and inspire. With an artist's eye for detail and a passion for aesthetics, I effortlessly transform ideas into striking visual masterpieces. My dedication to creating impactful designs has made me a true luminary in the world of graphic design.</p>
-        <h2 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
-        <p data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempora nostrum illum sequi corporis cum!
-        </p>
       </div>
   </section>
 
   <!-- Services -->
   <section class="services-offer" id="services">
-    <h5 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">SERVICES</h5>
-    <h1 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">I bring top realness into the following services</h1>
+    <h5 data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">SERVICES</h5>
+    <h1 data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">I bring top realness into the following services</h1>
     <div class="services">
   </section>
 
   <!-- bootstrap service -->
   <div class="container-fluid">
-    <div class="row" style="justify-content: center;" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+    <div class="row" style="justify-content: center;" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <div class="col-xs-12 col-s2 col-md-4 col-lg-3 mb-4">
         <div class="card p-2">
           <img src="images/icons/ux-design.svg" class="card-img-top" alt="..." style="width: 80px;">
@@ -150,7 +173,7 @@
       </div>
     </div>
 
-    <div class="comment" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+    <div class="comment" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <h3>Have any works you want to done by me? <a href="http://wa.me/2348158194393">Contact Me</a></h3>
       <p>I am just a phone call away, ready to assist you with all the tasks you need to be completed.</p>
     </div>
@@ -159,7 +182,7 @@
   <!-- counter -->
   <section class="counter">
     <!-- 1 -->
-    <div class="count" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+    <div class="count" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <img src="images/icons/Customer.png" alt="">
       <div class="detail">
         <h1>20</h1>
@@ -167,10 +190,10 @@
       </div>
     </div>
     <!-- 2 -->
-    <div class="count" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+    <div class="count" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <img src="images/icons/project2.png" alt="">
       <div class="detail">
-        <h1>150</h1>
+        <h1>1100</h1>
         <h4>Project completed</h4>
       </div>
     </div>
@@ -178,39 +201,39 @@
 
   <!-- Portfolio -->
   <section class="portfolio" id="portfolio">
-    <div class="the-title" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+    <div class="the-title" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <h4>PORTFOLIO</h4>
       <h1>My latest works</h1>
     </div>
     <div class="portfolio-images">
-      <img src="images/portfolio/KADEN-CONCEPT.jpg" alt="" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/Diversify.jpg" alt="" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/JenksBuy-01.jpg" alt="" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/Ne.png" alt="" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/SI.jpg" alt="" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/PH.jpg" alt="" data-aos="zoom-in" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/KADEN-CONCEPT.jpg" alt="" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Diversify.jpg" alt="" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/JenksBuy-01.jpg" alt="" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Ne.png" alt="" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/SI.jpg" alt="" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/PH.jpg" alt="" data-aos="zoom-in" data-aos-delay="100" data-aos-easing="ease-in-out">
     </div>
   </section>
 
 <!-- portfolio flyer -->
   <section class="portfolio-flyer">
     <div class="the-title">
-      <h1 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">More designs</h1>
+      <h1 data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">More designs</h1>
     </div>
     <div class="flyer-images">
-      <img src="images/portfolio/MBG-01.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/Godswill.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/Jays-Flyer.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/Rise.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/Unreheased.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/walk.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/MBG-01.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Godswill.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Jays-Flyer.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Rise.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Unreheased.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/walk.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
 
-      <img src="images/portfolio/CLB1.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/ANDREW_Cover are.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/f&v2.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/flyer_Paul.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/Kulit flyer.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
-      <img src="images/portfolio/makanaki.jpg" alt="" data-aos="flip-right" data-aos-delay="300" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/CLB1.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/ANDREW_Cover are.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/f&v2.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/flyer_Paul.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/Kulit flyer.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
+      <img src="images/portfolio/makanaki.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
     </div>
   </section>
 
@@ -221,7 +244,7 @@
 
   <!-- pricing 
   <section class="pricing" id="pricing">
-    <div class="pricing-title" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+    <div class="pricing-title" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
       <h4>MY PRICING</h4>
       <h1>Pricing & Packages</h1>
     </div>
@@ -328,6 +351,9 @@
   <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  <!-- tab -->
+  <script src="JS/tab.js"></script>
 </body>
 
 </html>
