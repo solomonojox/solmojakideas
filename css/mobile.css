@@ -12,9 +12,20 @@
     display: block;
     z-index: 99999999999;
   }
+  body,
+  html {
+    overflow-x: hidden;
+  }
 
-  .navbar {
-
+  .navbar:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 13vh;
+    z-index: -1;
   }
 
   .nav-links {
@@ -40,6 +51,9 @@
   }
 
   /* header */
+  .header{
+    height: 73.5vh;
+  }
   .header .container {
     margin: 100px 0 0;
   }
@@ -116,7 +130,7 @@
     justify-content: center;
   }
   .counter {
-    gap: 3px;
+    gap: 10px;
   }
   .counter .count {
     display: flex;
@@ -124,7 +138,8 @@
   }
 
   .counter .count img {
-    width: 40px;
+    width: 60px;
+    height: 60px;
   }
 
   .counter .count .detail h1 {
