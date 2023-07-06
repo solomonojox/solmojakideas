@@ -51,13 +51,18 @@
   }
 
   /* header */
+  .header{
+    overflow: hidden;
+    position: relative;
+    padding: 0 20px;
+  }
   .header .container-top {
     margin: 100px 0 0;
   }
-  .header .container-top img {
+  .header .header-img{
     width: 338px;
     position: absolute;
-    top: 100px;
+    top: 150px;
     right: 0px;
     opacity: 50%;
   }
@@ -165,12 +170,8 @@
     .portfolio-flyer .flyer-images img{
       width: 360px;
     }
-  /* pricing */
-  .pricing{
-    height: 1500px;
-  }
-  .pricing .price-wrap{
-    display: flex;
-    flex-direction: column;
+  
+  .go-to-top{
+    top: 9880px;
   }
 }

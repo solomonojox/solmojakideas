@@ -2,25 +2,27 @@
 .header {
      height: 100vh;
      display: flex;
+     align-items: center;
      background-color: #2466e0;
      overflow: hidden;
 }
 
 .header .container-top {
      margin-left: 200px;
-     margin-top: 200px;
+     margin-top: 150px;
      display: flex;
      flex-direction: column;
      gap: 20px;
      justify-content: center;
      overflow: hidden;
 }
-.header .container-top img{
+.header .header-img{
      width: 338px;
-     position: absolute;
-     top: 100px;
-     right: 200px;
-     opacity: 80%;
+     height: auto;
+     position: relative;
+     top: 150px;
+     right: 10px;
+     opacity: 80%
 }
 
 .header .container-top h1 {
@@ -150,51 +152,12 @@ h2 {
      text-align: center;
      margin: 0 300px 0px 300px;
 }
-
-.services-offer .services {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 50px;
-     margin: 0 200px;
-}
-
-.services-offer .services .serve {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     background-color: white;
-     padding: 40px;
-     margin-bottom: 50px;
-}
-
-.services-offer .services .serve h2 {
-     color: #2466e0;
-}
-
-.services-offer .services .serve p {
-     margin-bottom: 30px;
-}
-
-.services-offer .services .serve a {
-     color: #2466e0;
-}
-
-.services-offer .services .serve i {
-     color: #2466e0;
-}
-
-.services-offer .services .serve img {
-     margin-bottom: 20px;
-     width: 80px;
-}
-
 .comment {
      margin-bottom: 100px;
+     margin-top: 50px;
      color: #5a5656;
      text-align: center;
 }
-
 .comment a {
      color: #2466e0;
 }
@@ -307,71 +270,12 @@ h2 {
      border: #0f3b8f 1px solid;
 }
 
-/* pricing */
-.pricing {
-     background-color: #2466e0;
-     margin: 100px 0 0;
-     height: 650px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 50px;
+/* got to top */
+.go-to-top{
+     position: absolute;
+     right: 0;
+     top: 6000px;
 }
-
-.pricing-title {
-     text-align: center;
-}
-
-.pricing-title h1 {
-     font-size: 40px;
-     color: white;
-}
-
-.pricing-title h4 {
-     color: white;
-}
-
-.price-wrap {
-     margin-bottom: 50px;
-     height: 400px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 80px;
-     padding: 0 20px;
-     border-radius: 10px;
-}
-
-.price-wrap .price {
-     background-color: white;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     text-align: center;
-     padding: 50px 10px;
-     gap: 30px;
-}
-
-.price-wrap .price h4 {
-     font-size: 25px;
-     color: #2466e0;
-}
-
-.price-wrap .price p {
-     line-height: 30px;
-}
-
-.price-wrap .amount {
-     display: flex;
-     color: #2466e0;
-}
-
-.pricing .price-wrap .price-btn {
-     padding: 10px;
-     outline: none;
-     background-color: white;
-     border: 1px solid #2466e0;
-     border-radius: 10px;
+.go-to-top i{
+     font-size: 50px;
 }
