@@ -17,7 +17,7 @@
      overflow: hidden;
 }
 .header .header-img{
-     width: 338px;
+     width: 500px;
      height: auto;
      position: relative;
      top: 150px;
@@ -274,7 +274,7 @@ h2 {
 .go-to-top{
      position: absolute;
      right: 0;
-     top: 6000px;
+     top: 6700px;
 }
 .go-to-top i{
      font-size: 50px;
