@@ -1,0 +1,43 @@
+.mynav {
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: space-around;
+     background-color: #2466e0;
+     padding: 20px;
+     position: fixed;
+     z-index: 99999;
+}
+
+/* logo area */
+.mynav img{
+     width: 40px;
+}
+.mynav .logo-area{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+}
+.logo-area h1{
+     font-size: 20px;
+     color: #fff;
+}
+
+/* links */
+.mynav-links{
+     display: flex;
+     margin: 0;
+}
+.mynav-links li{
+     padding: 0 15px;
+     color: #fff;
+     font-weight: 500;
+}
+.contact{
+     color: #2466e0;
+     background-color: #fff;
+     border-radius: 10px;
+     padding: 10px;
+     font-weight: 500;
+}

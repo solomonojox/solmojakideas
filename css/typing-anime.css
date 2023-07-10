@@ -1,0 +1,24 @@
+.header .container-top .type {
+ display: inline-block;
+ border-right: 2px solid;
+ width: 74%;
+ white-space: nowrap;
+ overflow: hidden;
+ animation:
+  typing 2s infinite,
+  cursor .4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+ 50% {
+  border-color: transparent;
+ }
+}
+
+/* typing effect */
+@keyframes typing {
+ from {
+  width: 0;
+ }
+}
