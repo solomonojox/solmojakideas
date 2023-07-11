@@ -223,10 +223,10 @@
     flex-direction: column;
   }
     .portfolio-flyer .flyer-images img{
-      width: 360px;
+      width: 350px;
     }
   
   .go-to-top{
-    top: 10800px;
+    top: 10890px;
   }
 }
