@@ -18,23 +18,31 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     gap: 20px;
+     gap: 10px;
 }
 .logo-area h1{
      font-size: 20px;
      color: #fff;
+     font-weight: 600;
 }
 .logo2{
      display: none;
 }
 
 /* links */
-.nav-container a{
+.links a{
      text-decoration: none;
      font-size: 14px;
      font-weight: 600;
-     margin: 0 10px;
+     padding: 0 10px;
      color: #fff;
+ }
+ .links a:hover{
+     color: #2466e0;
+     background-color: #fff;
+     border-radius: 5px;
+     padding: 20px 10px;
+     transition: 0.4s ease;
  }
  
 .nav-container .contact{

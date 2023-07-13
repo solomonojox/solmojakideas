@@ -5,6 +5,7 @@
      align-items: center;
      background-color: #2466e0;
      overflow: hidden;
+     position: relative;
 }
 
 .header .container-top {
