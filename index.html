@@ -16,9 +16,21 @@
   <link rel="stylesheet" href="css/typing-anime.css">
   <link rel="stylesheet" href="css/floating-sm.css">
   <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/testimonial-slider.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/bootstrap-footer.css">
+
+      <!-- Boxicons css -->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+      <!-- swipper -->
+      <link href="https://cdn.jsdelivr.net/npm/swiper@9.1.1/modules/scrollbar/scrollbar.min.css" rel="stylesheet">
+      
+  
+      <!-- swipper css -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="swiper-bundle.min.css">
 
   <link rel="preconnect" href="https://f00onts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -184,7 +196,7 @@
     </div>
 
     <div class="comment" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
-      <h3>Have any works you want to done by me? <a href="http://wa.me/2348158194393">Contact Me</a></h3>
+      <h3>Have any work(s) you want to be done by me? <a href="http://wa.me/2348158194393">Contact Me</a></h3>
       <p>I am just a phone call away, ready to assist you with all the tasks you need to be completed.</p>
     </div>
   </div>
@@ -208,6 +220,64 @@
       </div>
     </div>
   </section>
+
+  <!-- testimonial -->
+  <section class="sec-container" data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out">
+    <div class="testimonial mySwiper">
+        <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="images/testimonial-img/img1.jpg" alt="" class="image">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque tempore id, odio vero, eligendi quaerat sapiente dolor excepturi cum et hic ab? Delectus, ipsum provident!</p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <div class="details">
+                    <span class="name">Annie Wesley</span>
+                    <span class="job">Web developer</span>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="images/testimonial-img/img2.jpg" alt="" class="image">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque tempore id, odio vero, eligendi quaerat sapiente dolor excepturi cum et hic ab? Delectus, ipsum provident!</p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <div class="details">
+                    <span class="name">Hohn Humphrey</span>
+                    <span class="job">Ui/Ux</span>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="images/testimonial-img/img3.jpg" alt="" class="image">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque tempore id, odio vero, eligendi quaerat sapiente dolor excepturi cum et hic ab? Delectus, ipsum provident!</p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <div class="details">
+                    <span class="name">Jenifar Jay</span>
+                    <span class="job">Front End designer</span>
+                </div>
+            </div>
+
+            <div class="slide swiper-slide">
+                <img src="images/testimonial-img/img4.jpg" alt="" class="image">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque tempore id, odio vero, eligendi quaerat sapiente dolor excepturi cum et hic ab? Delectus, ipsum provident!</p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <div class="details">
+                    <span class="name">Annie Wesley</span>
+                    <span class="job">Web developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swip-btn"></div>
+        <div class="swiper-button-prev swip-btn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
 
   <!-- Portfolio -->
   <section class="portfolio" id="portfolio">
@@ -245,11 +315,6 @@
       <img src="images/portfolio/Kulit flyer.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
       <img src="images/portfolio/makanaki.jpg" alt="" data-aos="flip-right" data-aos-delay="100" data-aos-easing="ease-in-out">
     </div>
-  </section>
-
-  <!-- testimonial -->
-  <section class="testimonial">
-
   </section>
 
   <!-- Bootstrap footer -->
@@ -321,6 +386,28 @@
 
   <!-- mobile menu -->
   <script src="JS/hamburger.js"></script>
+
+      <!-- swipper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10.0.4/swiper-bundle.min.js"></script>
+      <script src="swiper-bundle.min.js"></script>
+  
+      <!-- JavaScript -->
+      <script>
+          var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 1,
+              spaceBetween: 30,
+              grabCursor: true,
+              loop: true,
+              pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+              },
+              navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+              },
+          });
+      </script>
 </body>
 
 </html>

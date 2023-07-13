@@ -17,9 +17,9 @@
      overflow: hidden;
 }
 .header .header-img{
-     width: 500px;
+     width: 700px;
      height: auto;
-     position: relative;
+     position: absolute;
      top: 150px;
      right: 10px;
      opacity: 80%
@@ -27,13 +27,15 @@
 
 .header .container-top h1 {
      font-size: 60px;
-     font-weight: 500;
+     font-weight: 600;
      color: white;
+     z-index: 1;
 }
 
 .header .container-top p {
      color: white;
      font-size: 14px;
+     z-index: 1;
 }
 
 .header-btn {
@@ -79,6 +81,7 @@
      display: flex;
      align-items: center;
      gap: 20px;
+     z-index: 1;
 }
 
 .header .container-top .social a {
@@ -171,7 +174,7 @@ h2 {
      justify-content: center;
      height: 250px;
      gap: 100px;
-     margin-bottom: 150px;
+
 }
 
 .counter .count {

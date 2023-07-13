@@ -7,7 +7,7 @@
   display: none;
 }
 
-@media only screen and (max-width:880px) {
+@media only screen and (max-width:768px) {
   .hamburger{
     position: relative;
     display: block;
@@ -115,7 +115,10 @@
     margin: 100px 0 0;
   }
   .header .header-img{
-    width: 338px;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
     position: absolute;
     top: 150px;
     right: 0px;
