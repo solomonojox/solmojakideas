@@ -235,6 +235,11 @@ h2 {
      border: #0f3b8f 1px solid;
 }
 
+.reviews{
+     text-align: center;
+     margin: 80px 0 30px 0;
+}
+
 /* portfolio flyer */
 .portfolio-flyer {
      display: flex;
