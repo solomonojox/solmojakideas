@@ -67,7 +67,7 @@
      outline: none;
      border: none;
      border-radius: 5px;
-
+     z-index: 2;
      font-weight: bold;
 }
 
@@ -282,11 +282,3 @@ h2 {
 }
 
 /* got to top */
-.go-to-top{
-     position: absolute;
-     right: 0;
-     top: 6700px;
-}
-.go-to-top i{
-     font-size: 50px;
-}

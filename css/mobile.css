@@ -7,6 +7,18 @@
   display: none;
 }
 
+@media only screen and (min-width:1025px) {
+  .header{
+    height: 650px;
+  }
+  .header img{
+    right: auto;
+  }
+  .container-top{
+    padding-left: auto;
+  }
+}
+
 @media only screen and (max-width:768px) {
   .hamburger{
     position: relative;
@@ -228,8 +240,5 @@
     .portfolio-flyer .flyer-images img{
       width: 350px;
     }
-  
-  .go-to-top{
-    top: 10890px;
-  }
+
 }
