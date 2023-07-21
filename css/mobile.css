@@ -55,11 +55,11 @@
       position: fixed;
       top: 0;
       left: 100%;
-      width: 30%;
+      width: 100%;
       min-height: auto;
       display: block;
       z-index: 2;
-      background-color: #2466e0;
+      background-color: #5384de;
       padding-top: 120px;
       transition: 0.4s;
   }
@@ -82,7 +82,7 @@
   }
 
   .mobile-nav a:hover{
-      background-color: #2e74f7;
+      background-color: #2466e0;
       border-radius: 8px;
   }
 
