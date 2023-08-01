@@ -434,22 +434,35 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@10.0.4/swiper-bundle.min.js"></script>
       <script src="swiper-bundle.min.js"></script>
   
-      <!-- JavaScript -->
+      <!-- Swipper JavaScript -->
       <script>
-          var swiper = new Swiper(".mySwiper", {
-              slidesPerView: 1,
-              spaceBetween: 30,
-              grabCursor: true,
-              loop: true,
-              pagination: {
-                  el: ".swiper-pagination",
-                  clickable: true,
-              },
-              navigation: {
-                  nextEl: ".swiper-button-next",
-                  prevEl: ".swiper-button-prev",
-              },
-          });
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          loop:true,
+        });
+          // var swiper = new Swiper(".mySwiper", {
+          //     slidesPerView: 1,
+          //     spaceBetween: 30,
+          //     grabCursor: true,
+          //     loop: true,
+          //     pagination: {
+          //         el: ".swiper-pagination",
+          //         clickable: true,
+          //     },
+          //     navigation: {
+          //         nextEl: ".swiper-button-next",
+          //         prevEl: ".swiper-button-prev",
+          //     },
+          // });
       </script>
 </body>
 
