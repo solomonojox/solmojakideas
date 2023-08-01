@@ -10,9 +10,15 @@
      justify-content: center;
 }
 .follow i {
-     margin-right: 10px;
+     margin-right: 15px;
      font-size: 22px;
      color: #2466e0;
+     padding: 5px;
+}
+.follow i:hover{
+     background: #2466e0;
+     color: #fff;
+     border-radius: 50%;
 }
 .footnav{
      height: 350px;

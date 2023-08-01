@@ -17,3 +17,7 @@
      padding: 8px;
      border-radius: 100%;
 }
+.floating-sm i:hover{
+     background: #2466e0;
+     color: #fff;
+}
