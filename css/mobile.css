@@ -109,11 +109,11 @@
   }
 
   .logo2{
-    top: 17px;
+    top: 8px;
     left: 5%;
     display: block;
     position: fixed;
-    width: 150px;
+    width: 100px;
     z-index: 3;
   }
 
@@ -240,5 +240,25 @@
     .portfolio-flyer .flyer-images img{
       width: 350px;
     }
+}
 
+@media only screen and (max-width:350px){
+   /* portfolio */
+  .portfolio .portfolio-images {
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio .portfolio-images img{
+      width: 300px;
+  }
+  .portfolio-flyer .flyer-images{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-flyer .flyer-images img{
+      width: 300px;
+  }
+  .intro-me img{
+    width: 300px;
+  }
 }

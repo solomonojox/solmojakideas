@@ -2,7 +2,7 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     height: 100px;
+     height: 60px;
      background-color: #2466e0;
      padding: 0 50px;
      position: fixed;
@@ -42,7 +42,7 @@
      color: #2466e0;
      background-color: #fff;
      border-radius: 5px;
-     padding: 20px 10px;
+     padding: 10px 10px;
      transition: 0.4s ease;
  }
  
@@ -50,7 +50,7 @@
      color: #2466e0;
      background-color: #fff;
      border-radius: 10px;
-     padding: 10px;
+     padding: 8px;
      font-weight: 600;
 }
 .nav-container .contact:hover{
