@@ -29,3 +29,16 @@ p {
 .fa {
      font-size: 10px;
 }
+
+/* go to top */
+.go-to-top i{
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     font-size: 40px;
+     z-index: 9999999999;
+     color: #2466e0;
+     margin-bottom: 10px;
+     background-color: white;
+     border-radius: 50%;
+}
