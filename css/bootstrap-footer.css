@@ -21,7 +21,7 @@
      border-radius: 50%;
 }
 .footnav{
-     height: 350px;
+     height: 250px;
      display: flex;
      align-items: center;
      flex-direction: column;
@@ -30,7 +30,9 @@
 }
 .footnav a {
      color: #5a5656;
-     margin-right: 1px;
+}
+.footnav a:hover{
+     color: red;
 }
 .questions{
      height: 250px;
