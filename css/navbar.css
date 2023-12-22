@@ -54,10 +54,10 @@
      font-weight: 600;
 }
 .nav-container .contact:hover{
-     color: #fff;
-     background-color: #046e2e;
+     color: #2466e0;
+     background-color: yellow;
 }
 
-.hamburger, .mobile-nav{
+.hamburger, .mobile-nav, .phone-me{
      display: none;
 }
