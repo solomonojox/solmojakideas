@@ -56,7 +56,7 @@
       top: 0;
       left: 100%;
       width: 100%;
-      min-height: auto;
+      height: 100vh;
       display: block;
       z-index: 2;
       background-color: #5384de;
@@ -74,8 +74,8 @@
       max-width: 100px;
       margin: 0 auto 10px;
       text-align: center;
-      padding: 5px 5px;
-          
+      padding: 20px 5px;
+      border-bottom: 1px solid #fff;
       color: #fff;
       text-decoration: none;
       font-weight: bold;
