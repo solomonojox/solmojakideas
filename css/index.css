@@ -4,7 +4,7 @@
      display: flex;
      align-items: center;
      /* background-color: #2466e0; */
-     background: rgba(0, 0, 0, 0.5) url(/images/header-cover.jpg);
+     background: rgba(0, 0, 0, 0.5) url(/images/header_cover.jpg);
      background-blend-mode: darken;
      background-position: center;
      background-size: cover;

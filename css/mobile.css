@@ -25,8 +25,10 @@
   }
   .phone-me{
     display: block;
+    position: absolute;
     color: #fff;
     font-size: 12px;
+    left: 40%;
   }
   .phone-me i{
     margin-right: 5px;
