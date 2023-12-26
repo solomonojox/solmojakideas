@@ -3,8 +3,7 @@
      height: 100vh;
      display: flex;
      align-items: center;
-     /* background-color: #2466e0; */
-     background: rgba(0, 0, 0, 0.5) url(/images/header_cover.jpg);
+     background: rgba(0, 0, 0, 0.5) url(/images/intro-img.jpg);
      background-blend-mode: darken;
      background-position: center;
      background-size: cover;
@@ -61,8 +60,9 @@
 .header-btn .btn1 a {
      color: white;
 }
-.header-btn .btn1 a:hover{
-     color: #939393;
+.header-btn .btn1:hover{
+     background-color: #5089f1;
+     transition: all 0.3s ease;
 }
 
 .header-btn .btn1 i {
@@ -81,8 +81,9 @@
 .header-btn .btn2 a {
      color: #2466e0;
 }
-.header-btn .btn2 a:hover{
-     color: black;
+.header-btn .btn2:hover{
+     background-color: #cdcdcd;
+     transition: all 0.3s ease;
 }
 
 .header-btn .btn2 i {
