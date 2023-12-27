@@ -3,12 +3,10 @@
      height: 100vh;
      display: flex;
      align-items: center;
-     background: rgba(0, 0, 0, 0.5) url(/images/header_cover.jpg);
+     background: rgba(0, 0, 0, 0.5) url(/images/write.jpg);
      background-blend-mode: darken;
      background-position: center;
      background-size: cover;
-     overflow: hidden;
-     /* position: relative; */
 }
 
 .header .container-top {
