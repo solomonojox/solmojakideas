@@ -69,4 +69,22 @@
      border-radius: 5px;
      padding: 10px 10px !important;
      transition: 0.3s ease;
-   }
+}
+
+/* Click out to close menu */
+.menu-overlay{
+     position: fixed;
+     z-index: 999;
+     background-color: rgba(0,0,0,0.5);
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     visibility: hidden;
+     opacity: 0;
+     transition: all 0.3s ease;
+}
+.menu-overlay.check-active{
+     visibility: visible;
+     opacity: 1;
+}

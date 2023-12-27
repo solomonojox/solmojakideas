@@ -53,6 +53,8 @@
         <a href="#home"><h1>SOLMOJAK IDEAS</h1></a>
       </div>
 
+      <div class="menu-overlay"></div>
+
       <nav class="links">
         <a href="#home" class="nav_links">Home</a>
         <a href="#aboutme" class="nav_links">About</a>
@@ -426,12 +428,13 @@
 
   <!-- mobile menu -->
   <script>
-    const menuBtn = document.querySelector('.menu-btn')
-    const navlinks = document.querySelector('.mynav-links')
+    const menuBtn = document.querySelector('.menu-btn');
+    const navlinks = document.querySelector('.mynav-links');
 
     menuBtn.addEventListener('click',()=>{
+    menuBtn.classList.toggle('open')
     navlinks.classList.toggle('mobile-nav')
-    })
+  })
   </script>
 
   <!-- bootstrap -->

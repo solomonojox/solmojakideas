@@ -7,6 +7,7 @@
      background-blend-mode: darken;
      background-position: center;
      background-size: cover;
+     background-repeat: no-repeat;
 }
 
 .header .container-top {
